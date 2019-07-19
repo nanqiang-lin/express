@@ -1,1 +1,24 @@
-{"version":2,"name":"express","builds":[{"src":"www/**/*","use":"@now/static"},{"src":"api/**/*.js","use":"@now/node"}],"routes":[{"src":"/","dest":"www/index.html"}]}
+{
+    "version": 2,
+    "name": "express",
+    "builds": [
+        {
+            "src": "www/**/*",
+            "use": "@now/static"
+        },
+        {
+            "src": "api/**/*.js",
+            "use": "@now/node"
+        },
+        {
+            "src": "oauth/*",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/",
+            "dest": "www/index.html"
+        }
+    ]
+}
