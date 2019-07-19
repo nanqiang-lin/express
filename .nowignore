@@ -3,3 +3,4 @@ node_modules
 .gitignore
 api/node_modules
 api/yarn.lock
+yarn.lock
