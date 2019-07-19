@@ -9,10 +9,6 @@
         {
             "src": "api/**/*.js",
             "use": "@now/node"
-        },
-        {
-            "src": "oauth/*",
-            "use": "@now/node"
         }
     ],
     "routes": [
